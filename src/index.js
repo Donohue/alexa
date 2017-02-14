@@ -83,6 +83,9 @@ function onIntent(intentRequest, session, callback) {
     if (intentName == 'TestIntent') {
         handleTestRequest(intent, session, callback);
     }
+    else if (intentName == 'AnotherIntent') {
+        handleAnotherIntentRequest(intent, session, callback);
+    }
     else {
         throw "Invalid intent";
     }
@@ -102,6 +105,11 @@ function onSessionEnded(sessionEndedRequest, session) {
 function handleTestRequest(intent, session, callback) {
     callback(session.attributes,
         buildSpeechletResponseWithoutCard("Hello, World!", "", "true"));
+}
+
+function handleAnotherIntentRequest(intent, session, callback) {
+    callback(session.attributes,
+        buildSpeechletResponseWithoutCard("Hello, Moon!", "", "true"));
 }
 
 // ------- Helper functions to build responses -------

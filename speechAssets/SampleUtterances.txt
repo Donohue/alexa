@@ -2,3 +2,6 @@ TestIntent hello world
 TestIntent say hello world
 TestIntent to say hello world
 
+AnotherIntent hello moon
+AnotherIntent say hello moon
+AnotherIntent to say hello moon

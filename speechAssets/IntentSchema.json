@@ -2,6 +2,9 @@
   "intents": [
     {
       "intent": "TestIntent"
+    },
+    {
+      "intent": "AnotherIntent"
     }
   ]
 }
