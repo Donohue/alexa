@@ -125,6 +125,8 @@ If you got the correct output using the Service Simulator, try it on the Amazon 
 ![Step 3 Done](https://cdn-images-1.medium.com/max/800/1*dsYNwEAIA57WXUbAMmYxLQ.gif)
 
 Congrats, you just created your first Alexa skill! 👏👏
+Now you project will be in review stage and if selected then it would shown as 'live'.
+You can check that in the amazon web services.
 
 ## Step 4: Customize
 
