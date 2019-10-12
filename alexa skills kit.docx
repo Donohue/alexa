@@ -1,0 +1,7 @@
+Everything is good but you need to specify the region for AWS lamda server as alexa skill kit is available for specific regions. 
+https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html
+https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
+Find the above links also test the skills before going to live.
+Good luck for Alexa Developer console !!!!
+You can check my skill Bull-wise.
+Invocation:- chemistry facts
