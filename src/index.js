@@ -25,6 +25,7 @@ exports.handler = function (event, context) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
         }
 
+
         if (event.request.type === "LaunchRequest") {
             onLaunch(event.request,
                 event.session,
